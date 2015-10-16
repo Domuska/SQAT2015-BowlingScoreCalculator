@@ -80,3 +80,4 @@ RefactoringAction 1444986113686 TestBowlingScoreCalculator.java RENAME testBonus
 RefactoringAction 1444986115206 TestBowlingScoreCalculator.java RENAME testBonusAdditionPlusFive=>void testBonusAdditionPlusFive() METHOD
 RefactoringAction 1444986178341 Frame.java ADD void addBonus(int) METHOD
 EditAction 1444986184671 Frame.java 1032 7 8 0
+EditAction 1444986188443 TestBowlingScoreCalculator.java 1042 6 13 6
