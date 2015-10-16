@@ -80,11 +80,19 @@ public class TestBowlingScoreCalculator {
 	}
 	
 	@Test
-	public void testStrikeShouldBeSuccesful(){
+	public void testFrameStrikeShouldBeTrue(){
 		
 		Frame frame = new Frame(10,0);
 		
 		assertEquals(true, frame.isStrike());
+	}
+	
+	@Test
+	public void testFrameStrikeShouldBeFalse(){
+		
+		Frame frame = new Frame(6,4);
+		
+		assertEquals(false, frame.isStrike());
 	}
 	
 	

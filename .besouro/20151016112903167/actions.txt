@@ -131,3 +131,11 @@ EditAction 1444986783058 TestBowlingScoreCalculator.java 1610 9 22 9
 UnitTestCaseAction 1444986787748 TestBowlingScoreCalculator.java FAIL
 UnitTestSessionAction 1444986787749 TestBowlingScoreCalculator FAIL
 EditAction 1444986827241 Frame.java 1108 7 9 0
+UnitTestCaseAction 1444986834232 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444986834234 TestBowlingScoreCalculator OK
+RefactoringAction 1444986843142 TestBowlingScoreCalculator.java RENAME testStrikeShouldBeSuccesful()=>void testFrameStrikeShouldBeSuccesful() METHOD
+RefactoringAction 1444986850662 TestBowlingScoreCalculator.java ADD void testFrameStrikeShould FIELD
+RefactoringAction 1444986854683 TestBowlingScoreCalculator.java RENAME testFrameStrikeShould=>void testFrameStrikeShouldBeFailure() METHOD
+RefactoringAction 1444986861746 TestBowlingScoreCalculator.java RENAME testFrameStrikeShouldBeFailure()=>void testFrameStrikeShouldBeFalse() METHOD
+RefactoringAction 1444986866266 TestBowlingScoreCalculator.java RENAME testFrameStrikeShouldBeSuccesful()=>void testFrameStrikeShouldBeTrue() METHOD
+EditAction 1444986892506 TestBowlingScoreCalculator.java 1754 10 24 10
