@@ -233,3 +233,4 @@ RefactoringAction 1444988986707 Frame.java RENAME returnSecondThrowScore=>int re
 RefactoringAction 1444988992748 Frame.java RENAME returnFirstThrowScore()=>int getFirstThrowScore() METHOD
 RefactoringAction 1444988995264 Frame.java RENAME returnSecondThrowScore()=>int getSecondThrowScore() METHOD
 EditAction 1444989000994 Frame.java 1448 10 15 0
+EditAction 1444989080558 BowlingGame.java 1135 6 7 0
