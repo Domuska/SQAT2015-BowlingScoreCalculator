@@ -58,4 +58,13 @@ public class TestBowlingScoreCalculator {
 		assertEquals(5, frame.bonus());
 		
 	}
+	
+	@Test
+	public void testBonusAdditionMinusFive(){
+		
+		Frame frame = new Frame(4,6);
+		frame.addBonus(-5);
+		
+		assertEquals(0, frame.bonus());
+	}
 }

@@ -4,6 +4,7 @@ public class Frame {
 	private int firstThrow;
 	private int secondThrow;
 	
+	private int bonusScore;
 	private int totalScore;
 	
 	public Frame(int firstThrow, int secondThrow){
@@ -46,12 +47,12 @@ public class Frame {
 
 	//bonus throws
 	public int bonus(){
-		//to be implemented
-		return 0;
+		
+		return bonusScore;
 	}
 
-	public void addBonus(int i) {
-		// TODO Auto-generated method stub
+	public void addBonus(int bonus) {
+		bonusScore +=bonus;
 		
 	}
 }
