@@ -167,3 +167,10 @@ RefactoringAction 1444987225119 Frame.java RENAME isLastFrame()/2=>boolean isLas
 UnitTestCaseAction 1444987258689 TestBowlingScoreCalculator.java OK
 UnitTestSessionAction 1444987258690 TestBowlingScoreCalculator OK
 EditAction 1444987303460 TestBowlingScoreCalculator.java 2091 12 29 12
+RefactoringAction 1444987494258 TestBowlingScoreCalculator.java ADD void testBowlingGame FIELD
+RefactoringAction 1444987509284 TestBowlingScoreCalculator.java RENAME testBowlingGame=>void testBowlingGameAddFrame FIELD
+RefactoringAction 1444987515309 TestBowlingScoreCalculator.java RENAME testBowlingGameAddFrame=>void testBowlingGameAddOneFrame() METHOD
+RefactoringAction 1444987570042 TestBowlingScoreCalculator.java ADD import org.unioulu.tol.sqat.bsc.BowlingGame IMPORT
+RefactoringAction 1444987741502 TestBowlingScoreCalculator.java RENAME testBowlingGameAddOneFrame()=>void testBowlingGameAddOneFrameAnd() METHOD
+RefactoringAction 1444987744529 TestBowlingScoreCalculator.java RENAME testBowlingGameAddOneFrameAnd()=>void testBowlingGameAddOneFrameAndScoreFour() METHOD
+EditAction 1444987769226 TestBowlingScoreCalculator.java 2407 13 33 13

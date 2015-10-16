@@ -3,10 +3,13 @@ package org.unioulu.tol.sqat.bsc.tests;
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+import org.unioulu.tol.sqat.bsc.BowlingGame;
 import org.unioulu.tol.sqat.bsc.Frame;
 
 public class TestBowlingScoreCalculator {
 
+	//TESTS FOR THE FRAME
+	
 	@Test
 	public void testFrameScoreOneAndFiveSixOut() {
 		
@@ -115,5 +118,16 @@ public class TestBowlingScoreCalculator {
 	}
 	
 	
+	//TESTS FOR THE BOWLINGGAME
 	
+	@Test
+	public void testBowlingGameAddOneFrameAndScoreFour(){
+		
+		BowlingGame game = new BowlingGame();
+		Frame frame = new Frame(1,3);
+		
+		game.addFrame(frame);
+		
+		assertEquals(4, game.score());
+	}
 }
