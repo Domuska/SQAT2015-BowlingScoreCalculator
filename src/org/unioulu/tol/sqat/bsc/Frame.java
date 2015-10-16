@@ -4,6 +4,8 @@ public class Frame {
 	private int firstThrow;
 	private int secondThrow;
 	
+	
+	
 	public Frame(int firstThrow, int secondThrow){
 		this.firstThrow = firstThrow;
 		this.secondThrow = secondThrow;
@@ -12,7 +14,7 @@ public class Frame {
 	//the score of a single frame
 	public int score(){
 		
-		return 6;
+		return firstThrow + secondThrow;
 	}
 
 	//returns whether the frame is a strike or not
