@@ -239,6 +239,21 @@ public class TestBowlingScoreCalculator {
 		assertEquals(80, game.score());
 	}
 	
+	@Test
+	public void testBowlingGameAddTwoRoundsAndStrikeScoreAt14(){
+		
+		BowlingGame game = new BowlingGame();
+		
+		Frame frame1 = new Frame(10,0);
+		Frame frame2 = new Frame(5,2);
+		
+		game.addFrame(frame1);
+		game.addFrame(frame2);
+		
+		assertEquals(24, game.score());
+	}
+	
+	
 	
 	private void initializeGameNineGamesIn(BowlingGame game){
 		
