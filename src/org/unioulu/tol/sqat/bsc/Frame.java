@@ -4,17 +4,19 @@ public class Frame {
 	private int firstThrow;
 	private int secondThrow;
 	
-	
+	private int totalScore;
 	
 	public Frame(int firstThrow, int secondThrow){
 		this.firstThrow = firstThrow;
 		this.secondThrow = secondThrow;
+		
+		totalScore = firstThrow + secondThrow;
 	}
 	
 	//the score of a single frame
 	public int score(){
 		
-		if((firstThrow + secondThrow) < 0)
+		if(totalScore < 0)
 			return -1;
 		else
 			return firstThrow + secondThrow;
@@ -29,7 +31,7 @@ public class Frame {
 	//return whether a frame is a spare or not
 	public boolean isSpare(){
 		
-		if((firstThrow + secondThrow) == 10)
+		if(totalScore == 10)
 			return true;
 		else
 			return false;
