@@ -51,7 +51,6 @@ public class BowlingGame {
 		
 		for(int i = 0; i < frames.size(); i++){
 			
-			
 			if(frames.get(i).score() == 10){
 				Frame frame = frames.get(i);
 				frame.addBonus(frames.get(i+1).getFirstThrowScore());
