@@ -40,7 +40,8 @@ public class BowlingGame {
 			totalScore += frameScore;
 		}
 		
-		//totalScore += bonus.score();
+		if(bonus != null)
+			totalScore += bonus.score();
 		
 		return totalScore;
 	}
