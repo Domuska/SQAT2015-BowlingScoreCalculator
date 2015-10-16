@@ -141,4 +141,20 @@ public class TestBowlingScoreCalculator {
 		
 		assertEquals(9, game.score());
 	}
+	
+	@Test
+	public void testBowlingGameAddThreeFramesTotalScore25(){
+		
+		BowlingGame game = new BowlingGame();
+		Frame frame1 = new Frame(4,5);
+		Frame frame2 = new Frame(5,4);
+		Frame frame3 = new Frame(7,0);
+		
+		game.addFrame(frame1);
+		game.addFrame(frame2);
+		game.addFrame(frame3);
+		
+		assertEquals(25, game.score());
+		
+	}
 }
