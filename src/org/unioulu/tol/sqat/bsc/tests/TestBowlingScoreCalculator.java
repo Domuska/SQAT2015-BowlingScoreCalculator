@@ -207,7 +207,7 @@ public class TestBowlingScoreCalculator {
 	}
 	
 	@Test
-	public void testBowlingGameAddTenRoundsAndBonusSpareScoreAt90(){
+	public void testBowlingGameAddTenRoundsAndBonusSpareScoreAt85(){
 		
 		BowlingGame game = new BowlingGame();
 		
@@ -219,7 +219,7 @@ public class TestBowlingScoreCalculator {
 		game.addFrame(frame10);
 		game.setBonus(10, 0);
 		
-		assertEquals(90, game.score());
+		assertEquals(85, game.score());
 	}
 	
 	
