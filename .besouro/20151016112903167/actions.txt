@@ -95,3 +95,11 @@ EditAction 1444986342812 TestBowlingScoreCalculator.java 1199 7 16 7
 UnitTestCaseAction 1444986347433 TestBowlingScoreCalculator.java FAIL
 UnitTestSessionAction 1444986347434 TestBowlingScoreCalculator FAIL
 EditAction 1444986370999 Frame.java 1055 7 9 0
+UnitTestCaseAction 1444986376030 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444986376031 TestBowlingScoreCalculator OK
+RefactoringAction 1444986398298 TestBowlingScoreCalculator.java ADD void testBonusAddition FIELD
+RefactoringAction 1444986400319 TestBowlingScoreCalculator.java RENAME testBonusAddition=>void testBonusAdditionPlus FIELD
+RefactoringAction 1444986410842 TestBowlingScoreCalculator.java RENAME testBonusAdditionPlus=>void testBonusAdditionPlusTwentyFiveShouldFail() METHOD
+RefactoringAction 1444986418879 TestBowlingScoreCalculator.java RENAME testBonusAdditionMinusFive()=>void testBonusAdditionMinusFiveShouldFail() METHOD
+RefactoringAction 1444986455547 TestBowlingScoreCalculator.java RENAME testBonusAdditionPlusTwentyFiveShouldFail()=>void testBonusAdditionPlusTenPlusFifteenFiveShouldFail() METHOD
+EditAction 1444986488742 TestBowlingScoreCalculator.java 1421 8 20 8

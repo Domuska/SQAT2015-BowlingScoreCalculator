@@ -60,11 +60,23 @@ public class TestBowlingScoreCalculator {
 	}
 	
 	@Test
-	public void testBonusAdditionMinusFive(){
+	public void testBonusAdditionMinusFiveShouldFail(){
 		
 		Frame frame = new Frame(4,6);
 		frame.addBonus(-5);
 		
 		assertEquals(0, frame.bonus());
 	}
+	
+	@Test
+	public void testBonusAdditionPlusTenPlusFifteenFiveShouldFail(){
+		
+		Frame frame = new Frame(4,6);
+		frame.addBonus(15);
+		frame.addBonus(10);
+		
+		assertEquals(20, frame.bonus());
+		
+	}
+	
 }
