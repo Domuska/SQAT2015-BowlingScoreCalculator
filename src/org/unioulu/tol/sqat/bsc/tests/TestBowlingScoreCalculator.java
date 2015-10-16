@@ -169,7 +169,7 @@ public class TestBowlingScoreCalculator {
 		game.addFrame(frame2);
 		game.addFrame(frame3);
 		
-		assertEquals(24, game.score());
+		assertEquals(32, game.score());
 	}
 	
 }
