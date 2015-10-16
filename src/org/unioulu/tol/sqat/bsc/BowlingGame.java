@@ -40,6 +40,8 @@ public class BowlingGame {
 			totalScore += frameScore;
 		}
 		
+		totalScore += bonus.score();
+		
 		return totalScore;
 	}
 	
