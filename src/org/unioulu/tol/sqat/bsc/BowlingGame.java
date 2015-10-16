@@ -20,7 +20,7 @@ public class BowlingGame {
 	
 	// a bonus frame after the 10th frame
 	public void setBonus(int firstThrow, int secondThrow) {
-		//to be implemented
+		bonus = new Frame(5,0);
 	}
 	
 	public int score(){
