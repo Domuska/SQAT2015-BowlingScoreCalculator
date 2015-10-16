@@ -18,7 +18,11 @@ public class BowlingGame {
 	
 	// a bonus frame after the 10th frame
 	public void setBonus(int firstThrow, int secondThrow) {
-		bonus = new Frame(firstThrow,secondThrow);
+		
+		if((frames.get(frames.size()-1).getFirstThrowScore() == 10))
+				bonus = new Frame(firstThrow,secondThrow);
+		else
+			bonus = new Frame(firstThrow, 0);
 	}
 	
 	public int score(){
