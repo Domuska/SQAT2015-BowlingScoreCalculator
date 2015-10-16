@@ -23,5 +23,13 @@ public class TestBowlingScoreCalculator {
 		
 		assertEquals(10, frame.score());
 	}
+	
+	@Test
+	public void testScoreMinusFiveAndOneErrorNumberOut(){
+		
+		Frame frame = new Frame(-5,1);
+		
+		assertEquals(-1, frame.score());
+	}
 
 }
