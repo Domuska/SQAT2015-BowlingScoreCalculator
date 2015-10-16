@@ -14,8 +14,6 @@ public class BowlingGame {
 		
 		if(frames.size() <= 9)
 			frames.add(frame);
-		
-		
 	}
 	
 	// a bonus frame after the 10th frame
