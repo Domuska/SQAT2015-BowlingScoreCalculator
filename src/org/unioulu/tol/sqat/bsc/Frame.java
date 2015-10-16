@@ -6,12 +6,17 @@ public class Frame {
 	
 	private int bonusScore;
 	private int totalScore;
+	private boolean isStrike;
 	
 	public Frame(int firstThrow, int secondThrow){
 		this.firstThrow = firstThrow;
 		this.secondThrow = secondThrow;
 		
 		totalScore = firstThrow + secondThrow;
+		isStrike = false;
+		
+		if(firstThrow == 10)
+			isStrike = true;
 	}
 	
 	//the score of a single frame
@@ -26,7 +31,7 @@ public class Frame {
 	//returns whether the frame is a strike or not
 	public boolean isStrike(){
 		
-		return true;
+		return isStrike;
 	}
 	
 	//return whether a frame is a spare or not
