@@ -119,3 +119,12 @@ RefactoringAction 1444986677074 TestBowlingScoreCalculator.java RENAME testScore
 RefactoringAction 1444986679586 TestBowlingScoreCalculator.java RENAME testScoreSixAndFourTenOut()=>void testFrameScoreSixAndFourTenOut() METHOD
 RefactoringAction 1444986682102 TestBowlingScoreCalculator.java RENAME testScoreOneAndFiveSixOut()=>void testFrameScoreOneAndFiveSixOut() METHOD
 EditAction 1444986683148 TestBowlingScoreCalculator.java 1467 8 20 8
+UnitTestCaseAction 1444986691179 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444986691180 TestBowlingScoreCalculator OK
+RefactoringAction 1444986718170 TestBowlingScoreCalculator.java ADD void test FIELD
+RefactoringAction 1444986721691 TestBowlingScoreCalculator.java RENAME test=>void testStrikeShould FIELD
+RefactoringAction 1444986725213 TestBowlingScoreCalculator.java RENAME testStrikeShould=>void testStrikeShouldBe FIELD
+RefactoringAction 1444986730734 TestBowlingScoreCalculator.java RENAME testStrikeShouldBe=>void testStrikeShouldBeSuccesful FIELD
+RefactoringAction 1444986732755 TestBowlingScoreCalculator.java RENAME testStrikeShouldBeSuccesful=>void testStrikeShouldBeSucc FIELD
+RefactoringAction 1444986736276 TestBowlingScoreCalculator.java RENAME testStrikeShouldBeSucc=>void testStrikeShouldBeSuccesful() METHOD
+EditAction 1444986783058 TestBowlingScoreCalculator.java 1610 9 22 9
