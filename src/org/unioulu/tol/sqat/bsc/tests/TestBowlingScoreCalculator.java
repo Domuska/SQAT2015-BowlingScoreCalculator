@@ -130,4 +130,15 @@ public class TestBowlingScoreCalculator {
 		
 		assertEquals(4, game.score());
 	}
+	
+	@Test
+	public void testBowlingGameAddOneFrameAndScoreNine(){
+		
+		BowlingGame game = new BowlingGame();
+		Frame frame = new Frame(4,5);
+		
+		game.addFrame(frame);
+		
+		assertEquals(9, game.score());
+	}
 }
