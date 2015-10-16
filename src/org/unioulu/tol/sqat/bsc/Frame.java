@@ -7,6 +7,7 @@ public class Frame {
 	private int bonusScore;
 	private int totalScore;
 	private boolean isStrike;
+	private boolean isLastFrame;
 	
 	public Frame(int firstThrow, int secondThrow){
 		this.firstThrow = firstThrow;
@@ -14,6 +15,7 @@ public class Frame {
 		
 		totalScore = firstThrow + secondThrow;
 		isStrike = false;
+		isLastFrame = false;
 		
 		if(firstThrow == 10)
 			isStrike = true;
@@ -46,8 +48,8 @@ public class Frame {
 
 	//return whether this is the last frame of the match
 	public boolean isLastFrame(){
-		//to be implemented
-		return true;
+		
+		return isLastFrame;
 	}
 
 	//bonus throws
@@ -67,7 +69,7 @@ public class Frame {
 	}
 
 	public void setAsLastFrame() {
-		// TODO Auto-generated method stub
 		
+		isLastFrame = true;
 	}
 }
