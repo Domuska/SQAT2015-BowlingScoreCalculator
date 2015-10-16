@@ -262,3 +262,9 @@ UnitTestSessionAction 1444989995882 TestBowlingScoreCalculator OK
 RefactoringAction 1444990017056 TestBowlingScoreCalculator.java RENAME testBowlingGameAddTenRoundsAndBonusRound()=>void testBowlingGameAddTenRou() METHOD
 RefactoringAction 1444990025583 TestBowlingScoreCalculator.java RENAME testBowlingGameAddTenRou()=>void testBowlingGameAddElevenRoundsOnlyTenShouldBeAdded() METHOD
 EditAction 1444990029771 TestBowlingScoreCalculator.java 4251 17 77 17
+UnitTestCaseAction 1444990038181 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444990038182 TestBowlingScoreCalculator OK
+RefactoringAction 1444990067261 TestBowlingScoreCalculator.java ADD void initializeGameNineGames() METHOD
+RefactoringAction 1444990071811 TestBowlingScoreCalculator.java RENAME initializeGameNineGames()=>void initializeGameNineGamesIn() METHOD
+RefactoringAction 1444990083340 TestBowlingScoreCalculator.java RENAME initializeGameNineGamesIn()=>void initializeGameNineGamesIn(BowlingGame) METHOD
+EditAction 1444990143841 TestBowlingScoreCalculator.java 4320 18 78 17

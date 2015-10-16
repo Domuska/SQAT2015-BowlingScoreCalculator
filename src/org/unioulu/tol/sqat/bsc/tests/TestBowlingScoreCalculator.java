@@ -176,6 +176,22 @@ public class TestBowlingScoreCalculator {
 	@Test
 	public void testBowlingGameAddElevenRoundsOnlyTenShouldBeAdded(){
 		BowlingGame game = new BowlingGame();
+		
+		initializeGameNineGamesIn(game);
+		
+		Frame frame10 = new Frame(0,5);
+		Frame frame11 = new Frame(2,2);
+		
+		game.addFrame(frame10);
+		game.addFrame(frame11);
+		
+		
+		assertEquals(70, game.score());
+		
+	}
+	
+	private void initializeGameNineGamesIn(BowlingGame game){
+		
 		Frame frame1 = new Frame(4,2);
 		Frame frame2 = new Frame(5,5);
 		Frame frame3 = new Frame(8,0);
@@ -185,10 +201,6 @@ public class TestBowlingScoreCalculator {
 		Frame frame7 = new Frame(5,5);
 		Frame frame8 = new Frame(4,5);
 		Frame frame9 = new Frame(1,5);   //score 65
-		Frame frame10 = new Frame(0,5);
-		Frame frame11 = new Frame(2,2);
-		
-		//Frame frameBonus = new Frame(1,2);
 		
 		game.addFrame(frame1);
 		game.addFrame(frame2);
@@ -199,14 +211,6 @@ public class TestBowlingScoreCalculator {
 		game.addFrame(frame7);
 		game.addFrame(frame8);
 		game.addFrame(frame9);
-		game.addFrame(frame10);
-		game.addFrame(frame11);
-		
-		
-		assertEquals(70, game.score());
-		
 	}
-	
-	
 	
 }
