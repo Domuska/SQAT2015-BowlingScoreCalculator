@@ -65,4 +65,9 @@ public class Frame {
 				bonusScore = 20;
 		}
 	}
+
+	public void setAsLastFrame() {
+		// TODO Auto-generated method stub
+		
+	}
 }

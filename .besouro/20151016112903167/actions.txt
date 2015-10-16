@@ -145,3 +145,10 @@ RefactoringAction 1444986915161 Frame.java ADD boolean isStrike FIELD
 RefactoringAction 1444986921188 Frame.java REMOVE isStrike FIELD
 RefactoringAction 1444986922702 Frame.java ADD boolean isStrike FIELD
 EditAction 1444986963454 Frame.java 1210 7 11 0
+UnitTestCaseAction 1444986968121 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444986968122 TestBowlingScoreCalculator OK
+RefactoringAction 1444987042085 TestBowlingScoreCalculator.java ADD void testFrame FIELD
+RefactoringAction 1444987045607 TestBowlingScoreCalculator.java RENAME testFrame=>void testFrameIsLastFrame() METHOD
+RefactoringAction 1444987050131 TestBowlingScoreCalculator.java RENAME testFrameIsLastFrame()=>void testFrameIsLastFrameShouldBeTrue() METHOD
+RefactoringAction 1444987117524 Frame.java ADD void setAsLastFrame() METHOD
+EditAction 1444987122453 Frame.java 1291 8 11 0
