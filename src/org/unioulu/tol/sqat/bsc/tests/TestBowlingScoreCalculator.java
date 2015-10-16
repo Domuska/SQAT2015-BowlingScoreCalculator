@@ -95,6 +95,15 @@ public class TestBowlingScoreCalculator {
 		assertEquals(false, frame.isStrike());
 	}
 	
-	
+	@Test
+	public void testFrameIsLastFrameShouldBeTrue(){
+		
+		Frame frame = new Frame(6,4);
+		
+		frame.setAsLastFrame();
+		
+		assertEquals(true, frame.isLastFrame());
+		
+	}
 	
 }
