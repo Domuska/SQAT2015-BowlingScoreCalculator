@@ -8,12 +8,20 @@ import org.unioulu.tol.sqat.bsc.Frame;
 public class TestBowlingScoreCalculator {
 
 	@Test
-	public void testScorePositiveNumbersPositiveNumbersOut() {
+	public void testScoreOneAndFiveSixOut() {
 		
 		Frame frame = new Frame(1,5);
 		
 		assertEquals(6, frame.score());
 		
+	}
+	
+	@Test
+	public void testScoreSixAndFourTenOut(){
+		
+		Frame frame = new Frame(6,4);
+		
+		assertEquals(10, frame.score());
 	}
 
 }
