@@ -40,4 +40,12 @@ public class TestBowlingScoreCalculator {
 		assertEquals(false, frame.isSpare());
 	}
 	
+	@Test
+	public void testSpareIsSpare(){
+		
+		Frame frame = new Frame(4,6);
+		
+		assertEquals(true, frame.isSpare());
+	}
+	
 }

@@ -60,3 +60,8 @@ RefactoringAction 1444985682267 TestBowlingScoreCalculator.java RENAME testSpare
 RefactoringAction 1444985691287 TestBowlingScoreCalculator.java RENAME testSpareIs()=>void testSpareIsNot() METHOD
 RefactoringAction 1444985699420 TestBowlingScoreCalculator.java RENAME testSpareIsNot()=>void testSpareIsNotSpare() METHOD
 EditAction 1444985726104 TestBowlingScoreCalculator.java 750 4 8 4
+UnitTestCaseAction 1444985733912 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444985733914 TestBowlingScoreCalculator OK
+RefactoringAction 1444985756030 TestBowlingScoreCalculator.java ADD void testSparei FIELD
+RefactoringAction 1444985759048 TestBowlingScoreCalculator.java RENAME testSparei=>void testSpareIsSpare() METHOD
+EditAction 1444985788556 TestBowlingScoreCalculator.java 880 5 10 5
