@@ -32,4 +32,6 @@ public class TestBowlingScoreCalculator {
 		assertEquals(-1, frame.score());
 	}
 
+	
+	
 }

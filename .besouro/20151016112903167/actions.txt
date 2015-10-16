@@ -44,3 +44,9 @@ UnitTestSessionAction 1444985309593 TestBowlingScoreCalculator FAIL
 RefactoringAction 1444985321225 Frame.java ADD int totalS FIELD
 RefactoringAction 1444985323243 Frame.java REMOVE totalS FIELD
 EditAction 1444985371113 Frame.java 866 6 7 0
+UnitTestCaseAction 1444985376053 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444985376054 TestBowlingScoreCalculator OK
+RefactoringAction 1444985417283 TestBowlingScoreCalculator.java ADD void t FIELD
+RefactoringAction 1444985420801 TestBowlingScoreCalculator.java RENAME t=>void test() METHOD
+RefactoringAction 1444985525925 TestBowlingScoreCalculator.java REMOVE test() METHOD
+EditAction 1444985528421 TestBowlingScoreCalculator.java 622 3 6 3
