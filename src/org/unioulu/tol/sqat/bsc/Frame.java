@@ -49,4 +49,9 @@ public class Frame {
 		//to be implemented
 		return 0;
 	}
+
+	public void addBonus(int i) {
+		// TODO Auto-generated method stub
+		
+	}
 }
