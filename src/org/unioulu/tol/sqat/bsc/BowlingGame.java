@@ -59,7 +59,8 @@ public class BowlingGame {
 			if(frames.get(i).score() == 10){
 				Frame frame = frames.get(i);
 				
-				frame.addBonus(frames.get(i+1).getFirstThrowScore());
+				if(i != frames.size()-1)
+					frame.addBonus(frames.get(i+1).getFirstThrowScore());
 			}
 		}
 	}
