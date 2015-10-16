@@ -39,3 +39,8 @@ RefactoringAction 1444985255236 TestBowlingScoreCalculator.java RENAME testScore
 RefactoringAction 1444985257252 TestBowlingScoreCalculator.java RENAME testScoreMinusFive=>void testScoreMinusFiveAndOne FIELD
 RefactoringAction 1444985267273 TestBowlingScoreCalculator.java RENAME testScoreMinusFiveAndOne=>void testScoreMinusFiveAndOneErrorNumberOut() METHOD
 EditAction 1444985303506 TestBowlingScoreCalculator.java 616 3 6 3
+UnitTestCaseAction 1444985309592 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444985309593 TestBowlingScoreCalculator FAIL
+RefactoringAction 1444985321225 Frame.java ADD int totalS FIELD
+RefactoringAction 1444985323243 Frame.java REMOVE totalS FIELD
+EditAction 1444985371113 Frame.java 866 6 7 0
