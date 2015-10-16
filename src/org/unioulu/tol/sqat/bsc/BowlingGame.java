@@ -22,10 +22,10 @@ public class BowlingGame {
 	public int score(){
 		
 		int totalScore = 0;
-		int frameScore = 0;
+		int frameScore;
 		
 		for(int i = 0; i < frames.size(); i++){
-			
+			frameScore = 0;
 			frameScore = frames.get(i).score();
 			
 			if(frameScore == 10){
