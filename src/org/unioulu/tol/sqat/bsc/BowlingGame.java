@@ -26,14 +26,13 @@ public class BowlingGame {
 		int totalScore = 0;
 		int frameScore;
 		
+		this.updateBonusScores();
+		
 		for(int i = 0; i < frames.size(); i++){
 			
 			frameScore = frames.get(i).score();
+			frameScore += frames.get(i).bonus();
 			
-			if(frameScore == 10){
-				
-				frameScore += frames.get(i+1).bonus();
-			}
 			
 			
 			totalScore += frameScore;
