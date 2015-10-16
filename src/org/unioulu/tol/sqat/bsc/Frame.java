@@ -52,8 +52,12 @@ public class Frame {
 	}
 
 	public void addBonus(int bonus) {
-		if(bonus > 0)
-			bonusScore +=bonus;
-		
+		if(bonus > 0){
+			
+			if((bonusScore + bonus) < 20)
+				bonusScore +=bonus;
+			else
+				bonusScore = 20;
+		}
 	}
 }
