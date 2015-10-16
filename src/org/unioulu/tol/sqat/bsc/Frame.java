@@ -57,6 +57,14 @@ public class Frame {
 		
 		return bonusScore;
 	}
+	
+	public int getFirstThrowScore(){
+		return firstThrow;
+	}
+	
+	public int getSecondThrowScore(){
+		return secondThrow;
+	}
 
 	public void addBonus(int bonus) {
 		if(bonus > 0){
