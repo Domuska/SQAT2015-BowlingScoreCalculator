@@ -174,7 +174,7 @@ public class TestBowlingScoreCalculator {
 	
 	//lis‰t‰‰n yli 11 framea
 	@Test
-	public void testBowlingGameAddTenRoundsAndBonusRound(){
+	public void testBowlingGameAddElevenRoundsOnlyTenShouldBeAdded(){
 		BowlingGame game = new BowlingGame();
 		Frame frame1 = new Frame(4,2);
 		Frame frame2 = new Frame(5,5);
@@ -206,4 +206,7 @@ public class TestBowlingScoreCalculator {
 		assertEquals(70, game.score());
 		
 	}
+	
+	
+	
 }

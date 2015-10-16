@@ -257,3 +257,8 @@ EditAction 1444989970749 BowlingGame.java 1165 6 8 0
 UnitTestCaseAction 1444989975424 TestBowlingScoreCalculator.java FAIL
 UnitTestSessionAction 1444989975425 TestBowlingScoreCalculator FAIL
 EditAction 1444989986416 BowlingGame.java 1164 6 8 0
+UnitTestCaseAction 1444989995881 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444989995882 TestBowlingScoreCalculator OK
+RefactoringAction 1444990017056 TestBowlingScoreCalculator.java RENAME testBowlingGameAddTenRoundsAndBonusRound()=>void testBowlingGameAddTenRou() METHOD
+RefactoringAction 1444990025583 TestBowlingScoreCalculator.java RENAME testBowlingGameAddTenRou()=>void testBowlingGameAddElevenRoundsOnlyTenShouldBeAdded() METHOD
+EditAction 1444990029771 TestBowlingScoreCalculator.java 4251 17 77 17
