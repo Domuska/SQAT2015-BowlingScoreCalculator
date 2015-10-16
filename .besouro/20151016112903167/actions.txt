@@ -1,0 +1,8 @@
+FileOpenedAction 1444984143833 BowlingGame.java 584 5 2 0
+RefactoringAction 1444984919269 TestBowlingScoreCalculator.java RENAME test()=>void testScore() METHOD
+RefactoringAction 1444984931287 TestBowlingScoreCalculator.java RENAME testScore()=>void testScorePositiveNumber() METHOD
+RefactoringAction 1444984932803 TestBowlingScoreCalculator.java RENAME testScorePositiveNumber()=>void testScorePositiveNumbe() METHOD
+RefactoringAction 1444984934317 TestBowlingScoreCalculator.java RENAME testScorePositiveNumbe()=>void testScorePositiveNumbers() METHOD
+RefactoringAction 1444984942406 TestBowlingScoreCalculator.java RENAME testScorePositiveNumbers()=>void testScorePositiveNumbersPositiveNumbersOut() METHOD
+RefactoringAction 1444984960266 TestBowlingScoreCalculator.java ADD import org.unioulu.tol.sqat.bsc.Frame IMPORT
+EditAction 1444985022351 TestBowlingScoreCalculator.java 349 1 2 1
