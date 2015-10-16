@@ -64,15 +64,13 @@ public class BowlingGame {
 				
 				if(i != frames.size()-1){
 				
-				if(frame.getFirstThrowScore()== 10){
-					frame.addBonus(frames.get(i+1).getFirstThrowScore() 
-							+ frames.get(i+1).getSecondThrowScore());
-				}
-				else{
-					frame.addBonus(frames.get(i+1).getFirstThrowScore());
-				}
-				
-				
+					if(frame.getFirstThrowScore()== 10){
+						frame.addBonus(frames.get(i+1).getFirstThrowScore() 
+								+ frames.get(i+1).getSecondThrowScore());
+					}
+					else{
+						frame.addBonus(frames.get(i+1).getFirstThrowScore());
+					}
 				}
 			}
 		}
